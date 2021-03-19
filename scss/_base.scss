@@ -1,0 +1,91 @@
+@import "./mixins";
+@import "./variables";
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    max-width: 1440px;
+}
+
+
+.container {
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-5 {
+    width: 41.6666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-8 {
+    width: 66.6666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333%;
+}
+
+.col-11 {
+    width: 91.6666%;
+}
+
+.col-12 {
+    width: 100%;
+}
