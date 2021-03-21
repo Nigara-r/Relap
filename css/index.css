@@ -180,6 +180,10 @@ a {
   margin-bottom: -279px;
 }
 
+.hero__img1 {
+  margin-top: 20px;
+}
+
 .hero .social {
   display: -webkit-box;
   display: -ms-flexbox;
